@@ -1,7 +1,3 @@
-# Tools
-Collection of some easy of use tools - in powershell.
-
-
 # PSUnzipper - PowerShell Unzipper  
 Uses SharpZipLiB in .NET, loaded in runtime (no file on disk) - ref. https://github.com/icsharpcode/SharpZipLib  
 Can be used with password (zip, unzip)  
@@ -9,7 +5,7 @@ Both encryption methods AES and ZipCrypto is supported
 
 
 
-McAfee_DEBUP - Recreates McAfee quarantined file.  
+# McAfee_DEBUP - Recreates McAfee quarantined file
 Written in powershell and compiled to exe with GUI.  
 Uses openmcdf .net dll for work with ole files - ref. https://github.com/ironfede/openmcdf  
 These kind of files have .bup extension and in fact they are actually type of ole file. 
