@@ -17,3 +17,7 @@ Streams are XOR encoded. The key is 0x6A.
 # yara_rule_marger - simply yara rules merger
 Run script and input source folder with yara rules.
 In PATH where script is running new file "merged.yar" is created.
+
+
+# HASH_MISMATCHER - Folder content comprator HASH MISMATCH
+Compares two folders - shows differences.
