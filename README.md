@@ -19,5 +19,5 @@ Run script and input source folder with yara rules.
 In PATH where script is running new file "merged.yar" is created.
 
 
-# HASH_MISMATCHER - Folder content comprator HASH MISMATCH
-Compares two folders - shows differences.
+# HASH_MISMATCHER - Folders content comprator
+Compares two folders - shows differences - HASH MISMATCH.
