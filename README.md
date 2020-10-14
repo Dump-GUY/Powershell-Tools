@@ -14,7 +14,7 @@ BUP file contains two streams: Details and File_0. Details is the McAfee anti-vi
 Streams are XOR encoded. The key is 0x6A.  
 
 
-# yara_rule_marger - simply yara rules merger
+# yara_rule_merger - simply yara rules merger
 Run script and input source folder with yara rules.
 In PATH where script is running new file "merged.yar" is created.
 
