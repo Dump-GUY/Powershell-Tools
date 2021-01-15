@@ -28,4 +28,5 @@ There are situations during malware analysis, where you find quite useful to hav
 SYSTEM ASLR disabled. For example you need to all dlls be loaded according to
 imagebase in optional header. In such situation, to get modules loaded in process space everytime on their imagebase, the system ASLR has to be disabled.
 Another adavantage to have SYSTEM ASLR disabled is that the main module (your sample) ASLR settings (Optionl header --> Dll Characteristics --> Dll can move) will be ignored too (disabled) so you do not have to patch it.
+PS version > 4.0
 
