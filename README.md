@@ -30,8 +30,8 @@ imagebase in optional header. In such situation, to get modules loaded in proces
 Another adavantage to have SYSTEM ASLR disabled is that the main module (your sample) ASLR settings (Optionl header --> Dll Characteristics --> Dll can move) will be ignored too (disabled) so you do not have to patch it.
 PS version > 4.0
 
-# Get-AlternateDataStream - Find files with Alternate Data Stream "zone.identifier".
-This tool is simple PS Module which is able to find files with ADS "zone.identifier".<br/>
+# Get-AlternateDataStream - Find files with ADS "zone.identifier"
+This tool is simple PSModule which is able to find files with Alternate Data Stream "zone.identifier".<br/>
 It will parse the ADS and show all related info and some info about files in GridView.<br/>
 Possilble options:<br/>
 -recurse (Search files recursively)<br/>
