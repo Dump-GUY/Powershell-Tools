@@ -45,3 +45,7 @@ Requirements:<br/>
 Windows OS<br/>
 PowerShell Core or Windows Powershell<br/>
 
+
+# SpecialFoldersView_CSIDL_Oneliner
+Simple one-liner to obtain NAME, FOLDER_PATH and CSIDL.
+
