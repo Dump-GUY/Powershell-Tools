@@ -49,3 +49,8 @@ PowerShell Core or Windows Powershell<br/>
 # SpecialFoldersView_CSIDL_Oneliner
 Simple one-liner to obtain NAME, FOLDER_PATH and CSIDL.
 
+
+# Invoke-DetectItEasy
+Invoke-DetectItEasy is a powershell module and wrapper for excelent tool called Detect-It-Easy. It is very useful for Threat Hunting and Forensics.<br/>
+LINK: https://github.com/Dump-GUY/Invoke-DetectItEasy
+
