@@ -1,0 +1,1 @@
+([Reflection.Assembly]::LoadFile("C:\Users\Inferno\Desktop\sample.bin")).GetTypes() | %{$_.getmethods([Reflection.BindingFlags]::Public -bxor [Reflection.BindingFlags]::NonPublic -bxor [Reflection.BindingFlags]::Static) | ?{$_.Attributes -band [Reflection.MethodAttributes]::PinvokeImpl}} | fl -Property Name,DeclaringType,CustomAttributes
