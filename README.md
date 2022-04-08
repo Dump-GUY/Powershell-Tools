@@ -54,3 +54,7 @@ Simple one-liner to obtain NAME, FOLDER_PATH and CSIDL.
 Invoke-DetectItEasy is a powershell module and wrapper for excellent tool called Detect-It-Easy. It is very useful for Threat Hunting and Forensics.<br/>
 LINK: https://github.com/Dump-GUY/Invoke-DetectItEasy
 
+
+# Get-PDInvokeImports
+Get-PDInvokeImports is tool (PowerShell module) which is able to perform automatic detection of P/Invoke, Dynamic P/Invoke and D/Invoke usage in assembly. Showing all locations from where they are referenced and Exports all to DnSpy_Bookmarks.xml<br/>
+LINK: https://github.com/Dump-GUY/Get-PDInvokeImports
