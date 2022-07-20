@@ -1,5 +1,5 @@
 #AsmResolver dependency - https://github.com/Washi1337/AsmResolver
-#Download release and use net6.0 from Powershell on Windows
+#Download release and use net6.0 from Powershell on Windows (Using AsmResolver and PWSH 7.2+ (NET6.0), you can use from different PWSH version but use appropriate AsmResolver)
 
 [System.Reflection.Assembly]::LoadFrom("C:\Users\DFIR_GUY\Desktop\test\net6.0\AsmResolver.DotNet.dll")
 [System.Reflection.Assembly]::LoadFrom("C:\Users\DFIR_GUY\Desktop\test\net6.0\AsmResolver.PE.dll")
