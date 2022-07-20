@@ -58,3 +58,9 @@ LINK: https://github.com/Dump-GUY/Invoke-DetectItEasy
 # Get-PDInvokeImports
 Get-PDInvokeImports is tool (PowerShell module) which is able to perform automatic detection of P/Invoke, Dynamic P/Invoke and D/Invoke usage in assembly. Showing all locations from where they are referenced and Exports all to DnSpy_Bookmarks.xml<br/>
 LINK: https://github.com/Dump-GUY/Get-PDInvokeImports
+
+# AddNativeImport2NetAssemblyExe
+Simple snippet example how to add native dll to IAT of .NET assembly so when run DllMain gets invoked.<br/>
+Using AsmResolver and PWSH 7.2+ (NET6.0), you can use from different PWSH version but use appropriate AsmResolver<br/>
+LINK: https://github.com/Washi1337/AsmResolver
+
